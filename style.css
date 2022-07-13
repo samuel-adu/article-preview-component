@@ -100,22 +100,24 @@ h2 {
   margin-right: auto;
 }
 
-.share__icon {
+.share__btn {
   background-color: var(--clr-light);
   padding: 0.6125em 0.65em;
   border-radius: 50%;
   cursor: pointer;
   z-index: 1;
   position: relative;
+  display: inline;
+  border: 0;
 }
 
-.share__icon:hover,
-.share__icon:active {
+.share__btn:hover,
+.share__btn:active {
   background-color: var(--clr-dark-700);
 }
 
-.share__icon:hover path,
-.share__icon:active path {
+.share__btn:hover path,
+.share__btn:active path {
   fill: #fff;
 }
 
